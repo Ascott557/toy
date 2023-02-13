@@ -1,12 +1,6 @@
 @description('The location into which your Azure resources should be deployed.')
 param location string = resourceGroup().location
 
-@description('Select the type of environment you want to provision. Allowed values are Production and Test.')
-@allowed([
-  'Production'
-  'Test'
-  '--donotuse--'
-])
 param environmentType string
 
 @description('A unique suffix to add to resource names that need to be globally unique,hey.')

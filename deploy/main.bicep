@@ -1,4 +1,4 @@
-@description('The location into which your Azure resources should be deployed.')
+@description('The location into which your Azure resources should be deployed.test')
 param location string = resourceGroup().location
 
 param environmentType string
